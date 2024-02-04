@@ -3,5 +3,5 @@
 # key: dft
 # group: definitions
 # --
-def ${1:fun}(${2:args})->${3:return_type}:
+def ${1:fun}(${2:args}) -> ${3:return_type}:
     $0
