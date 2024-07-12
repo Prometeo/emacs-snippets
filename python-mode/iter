@@ -3,5 +3,5 @@
 # key: iter>
 # group: dunder methods
 # --
-def __iter__(self):
-    return ${1:iter($2)}
+def __iter__(self) -> Iterator[${1}]:
+    return ${2:iter($3)}
