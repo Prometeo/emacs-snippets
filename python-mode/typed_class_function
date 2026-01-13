@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: typed_function
+# key: dfct>
+# group: definitions
+# --
+def ${1:fun}(self, ${2:args}) -> ${3:return_type}:
+    $0
