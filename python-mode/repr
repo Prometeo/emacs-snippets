@@ -3,5 +3,5 @@
 # key: repr>
 # group: dunder methods
 # --
-def __repr__(self):
+def __repr__(self) -> str:
     $0
